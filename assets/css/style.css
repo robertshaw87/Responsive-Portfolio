@@ -211,13 +211,45 @@ article::after {
     margin-bottom: 10px;
 }
 
+/* alternate formatting up to 980px of screen space */
 @media screen and (max-width:980px){
     .header-content {
-        width: 80%;
-        min-width: 700px;
+        width: 800px;
+        margin-left: 50px;
     }
     .content-wrapper {
-        width: 80%;
-        min-width: 700px;
+        margin: 0;
+        padding-left: 50px;
+        width: 650px;
+    }
+
+    .portrait-me img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header-content {
+        margin-left: 20px;
+        width: 650px;
+    }
+
+    .content-wrapper {
+        margin: 0;
+        padding-left: 20px;
+        width: 650px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .header-content {
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    .content-wrapper {
+        margin: 0;
+        padding-left: 20px;
+        width: 500px;
     }
 }
