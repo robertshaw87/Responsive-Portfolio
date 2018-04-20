@@ -206,9 +206,16 @@ article::after {
 /* headshot formatting in index */
 #portrait-me {
     float:left;
+    height: 200px;
+    width: 200px;
     margin-top: 5px;
     margin-right: 25px;
     margin-bottom: 10px;
+}
+
+#portrait-me img {
+    width:100%;
+    height:auto; 
 }
 
 /* alternate formatting up to 980px of screen space */
@@ -223,8 +230,9 @@ article::after {
         width: 650px;
     }
 
-    .portrait-me img {
-        width: 300px;
+    #portrait-me {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -239,6 +247,11 @@ article::after {
         padding-left: 20px;
         width: 650px;
     }
+
+    #portrait-me {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width:640px){
@@ -251,5 +264,11 @@ article::after {
         margin: 0;
         padding-left: 20px;
         width: 500px;
+    }
+
+    #portrait-me {
+        float: none;
+        width: 100%;
+        height: auto;
     }
 }
