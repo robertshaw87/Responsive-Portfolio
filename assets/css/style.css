@@ -150,7 +150,7 @@ footer {
     clear:both;
     left: 0;
     bottom: 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 9;
     background-color: #888;
@@ -169,7 +169,6 @@ footer {
     padding-top: 130px;
     padding-bottom: 110px;
     width: 960px;
-    min-width: 660px;
     margin-left: auto;
     margin-right: auto;
     clear:both;
@@ -210,4 +209,15 @@ article::after {
     margin-top: 5px;
     margin-right: 25px;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width:980px){
+    .header-content {
+        width: 80%;
+        min-width: 700px;
+    }
+    .content-wrapper {
+        width: 80%;
+        min-width: 700px;
+    }
 }
