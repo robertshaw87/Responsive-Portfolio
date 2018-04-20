@@ -1,0 +1,47 @@
+/* styles for portfolio.html */
+
+/* wrapper for portfolio projects list */
+.portfolio-content {
+    position: relative;
+    height: 500px;
+    margin: 0;
+    /* background-color: red; */
+}
+
+/* link formatting for individual projects,
+    links as button/box like objects */
+.portfolio-element {
+    position: relative;
+    float: left;
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin: 10px 40px 30px 0;
+    background-color: grey;
+    transition: all .3s ease-in-out;
+}
+
+/* caption for each link-image combo */
+.portfolio-caption {
+    background-color: #58c;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    opacity: .9;
+    text-align: center;
+}
+
+/* add effect to portfolio image on hover */
+.portfolio-element:hover, .portfolio-element:hover a {
+    opacity: .8;
+    transform: scale(1.1)
+}
+
+/* add effect while hovering over the portfolio image to caption */
+.portfolio-element:hover .portfolio-caption, .portfolio-element.hover .portfolio-caption {
+    opacity: 1;
+    background-color: #69d;
+}

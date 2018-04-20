@@ -1,0 +1,213 @@
+/* add background to webpage */
+body {
+    /*margin and padding here to remove gap around edges*/
+    margin: 0;
+    padding: 0;
+    background-color:#ddd;
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+}
+
+/* styles and enlarges h1 tag */
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/* bolds and changes font for h3 */
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+/* add formatting for <p> tags
+    more spacing after each <p> element and between lines within <p>*/
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+/* background formatting for sticky header */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #999;
+    text-align: center;
+}
+
+/* wrapper for actual content of header */
+.header-content {
+    position: absolute;
+    bottom: 0;
+    width: 960px;
+    min-width: 660px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* name tag in the header, moved to cover the border of the 
+    header wrapper and leave a gap at the top of the header */
+#name-tag {
+    width: 300px;
+    background-color: #68b;
+    color: #fff;
+    float: left;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: -5px;
+    animation-name: name-tag-animation;
+    animation-duration: .6s;
+}
+
+@keyframes name-tag-animation {
+    0% {
+      background-color: #68b;
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      background-color: #69d;
+      color: #eee;
+      opacity: .9;
+      transform: scale(1.03);
+    }
+    100% {
+      background-color: #68b;
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+/* wrapper for nav links in the header */
+.header-nav {
+    margin-top: 85px;
+    /* margin-right: -20px; */
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+/* formatting for individual nav links */
+.header-links {
+    float: left;
+    margin-bottom: 5px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: #ddd;
+}
+
+/* remove border on left side link */
+#header-about {
+    border-left-style: none;
+}
+
+/* remove border on right side link */
+#header-contact {
+    border-right-style: none;
+}
+
+/*remove underlining and color change on links in header
+    makes the links into "buttons" by adding padding*/
+.header-links a:link, .header-links a:visited, .header-links a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+}
+
+/* changes color of links when hovered over */
+.header-links a:hover {
+    background-color: #69d;
+    color: white;
+}
+
+/* Sticky Footer */
+footer {
+    clear:both;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: #888;
+    border-top-style: solid;
+    border-width: 10px;
+    border-color: #68b;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #eee;
+    text-align: center;
+}
+
+/* padding to the main body of the article in order to keep 
+    content out of header and footer*/
+.content-wrapper{
+    padding-top: 130px;
+    padding-bottom: 110px;
+    width: 960px;
+    min-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+}
+
+/* main text box */
+article {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: white;
+    border-color: #999;
+    border-style: solid;
+    border-width: 2px;
+    padding: 35px;
+}
+
+/* clearfix hack */
+article::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* body page title styling*/
+.article-title {
+    color: #68b;
+    /* padding-bottom: 25px; */
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #ddd;
+    margin-bottom: 35px;
+}
+
+
+/* headshot formatting in index */
+#portrait-me {
+    float:left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}

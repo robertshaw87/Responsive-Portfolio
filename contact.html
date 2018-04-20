@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact - Robert Shaw</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style-contact.css"/>
+</head>
+
+<body>
+    <!-- Static Header wrapper -->
+    <header>
+        <!-- actual content of the header -->
+        <section class="header-content">
+            <section id="name-tag">
+                Robert Shaw
+            </section>
+
+            <section class="header-nav">
+                <section class="header-links" id="header-about">
+                    <a href="index.html">About</a>
+                </section>
+                <section class="header-links" id="header-portfolio">
+                    <a href="portfolio.html">Portfolio</a>
+                </section>
+                <section class="header-links" id="header-contact">
+                    <a href="contact.html">Contact</a>
+                </section>
+            </section>
+        </section>
+    </header>
+
+    <!-- Contact form body -->
+    <section class="content-wrapper">
+        <article>
+            <section class="article-title">
+                <h1>Contact</h1>
+            </section>
+            <form class="article-text" action="/action_page.php" method="get">
+                <h2>Name</h2>
+                <input class="input-single" type="text" name="contactname"> <br>
+                <h2>Email</h2>
+                <input class="input-single" type="text" name="contactemail"> <br>
+                <h2>Message</h2>
+                <textarea class="input-box" name="contactmessage" 
+                    placeholder="I look forward to hearing from you!"
+                    onfocus="this.placeholder=''"
+                    onblur="this.placeholder='I look forward to hearing from you!'"
+                    ></textarea><br>
+            </form>
+            <br>
+            <button class="contact-submit" type="button">Submit</button>
+        </article>
+    </section>
+
+    <!-- Static Footer -->
+    <footer>
+        Copyright &copy;
+    </footer>
+</body>
+
+</html>

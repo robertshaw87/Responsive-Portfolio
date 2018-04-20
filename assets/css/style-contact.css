@@ -1,0 +1,46 @@
+/* styles for contact.html */
+
+/* single line input box formatting in contact */
+.input-single {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: calc(100% - 13px);
+    resize: none;
+}
+
+/* message box formatting in contact */
+.input-box {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: calc(100% - 11px);
+    height: 180px;
+
+}
+
+/* styles the placeholder text in the message box */
+::-webkit-input-placeholder {
+    color: #666;
+    opacity: .5;
+}
+
+/* styling for submit button on contact page*/
+.contact-submit {
+    background-color: #58c;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-submit:hover {
+    background-color: #69d;
+}
+
+/* potential color change on hover for submit button on contact page */
+/* .contact-submit:hover {
+    background-color:#666;
+} */
