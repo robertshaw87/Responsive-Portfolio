@@ -3,7 +3,7 @@
 /* wrapper for portfolio projects list */
 .portfolio-content {
     position: relative;
-    height: 500px;
+    /* height: 500px; */
     margin: 0;
     /* background-color: red; */
 }
@@ -21,6 +21,10 @@
     transition: all .3s ease-in-out;
 }
 
+.portfolio-element img {
+    width: 100%;
+    height: auto;
+}
 /* caption for each link-image combo */
 .portfolio-caption {
     background-color: #58c;
@@ -44,4 +48,42 @@
 .portfolio-element:hover .portfolio-caption, .portfolio-element.hover .portfolio-caption {
     opacity: 1;
     background-color: #69d;
+}
+
+@media screen and (max-width:980px){
+
+    .portfolio-element {
+        float: left;
+        height: 270px;
+        width: 270px;
+        margin: 10px 0 30px 0;
+    }
+
+    #project1, #project3, #project5, #project7 {
+        margin-right: 36px;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+    .portfolio-element {
+        float: left;
+        height: 270px;
+        width: 270px;
+        margin: 10px 0 30px 0;
+    }
+
+    #project1, #project3, #project5, #project7 {
+        margin-right: 36px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .portfolio-element {
+        float: none;
+        height: 476px;
+        width: 476px;
+        margin: 10px 0 30px 0;
+    }
+
 }
