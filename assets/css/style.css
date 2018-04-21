@@ -133,7 +133,7 @@ header {
 /*remove underlining and color change on links in header
     makes the links into "buttons" by adding padding*/
 .header-links a:link, .header-links a:visited, .header-links a {
-    padding: 5px 20px;
+    padding: 5px 15px;
     text-decoration: none;
     color: #666;
 }
@@ -241,6 +241,10 @@ article::after {
         width: 751px;
     }
 
+    header {
+        width: 751px;
+    }
+
     .header-content {
         margin-left: auto;
         width: 650px;
@@ -260,6 +264,9 @@ article::after {
 }
 
 @media screen and (max-width:640px){
+    body {
+        width: 623px;
+    }
     .content-wrapper {
         width: 550px;
         padding-left: 0;
@@ -274,7 +281,6 @@ article::after {
     }
 
     .header-content {
-        background-color: yellow;
         margin: 0;
         padding: 0;
         width: 620px;
@@ -299,11 +305,15 @@ article::after {
 
     .header-nav {
         position: absolute;
-        width: 500px;
+        width: 286px;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .header-links {
+
     }
 
     footer {
