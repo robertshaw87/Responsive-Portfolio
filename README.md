@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-A framework for a portfolio website with additional responsiveness to different screen sizes. The layout changes depending on the screen size viewed at. Most of the elements aren't functional yet, but the layout and planned content are relevant.
+A prototype for a portfolio website with additional responsiveness to different screen sizes. The layout changes depending on the screen size viewed at. Most of the elements aren't functional yet, but the layout and planned content are relevant.
 
 ## Getting Started
 
