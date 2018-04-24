@@ -5,6 +5,7 @@ A prototype for a portfolio website with additional responsiveness to different 
 ## Getting Started
 
 Open up the [project link](https://robertshaw87.github.io/Responsive-Portfolio/) and you should be able to see the example webpage shown below:
+
 ![Responsive Portfolio](assets/images/responsive-portfolio-about.png "Responsive Portfolio")
 
 ### Prerequisites

@@ -3,9 +3,7 @@
 /* wrapper for portfolio projects list */
 .portfolio-content {
     position: relative;
-    /* height: 500px; */
     margin: 0;
-    /* background-color: red; */
 }
 
 /* link formatting for individual projects,
