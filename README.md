@@ -1,6 +1,6 @@
 # Responsive Portfolio
 
-A framework for a portfolio website with additional responsiveness to different screen sizes. The layout changes depending on the screen size viewed at. Most of the elements aren't functional yet, but the layout and planned content are relevant
+A framework for a portfolio website with additional responsiveness to different screen sizes. The layout changes depending on the screen size viewed at. Most of the elements aren't functional yet, but the layout and planned content are relevant.
 
 ## Getting Started
 
@@ -22,6 +22,10 @@ Edge
 ### Installing
 
 No installation needed! Just open the page in your preferred browser.
+
+## Built With
+
+* [Basic-Portfolio](https://github.com/robertshaw87/Basic-Portfolio) - An earlier version of this Portfolio layout without responsiveness.
 
 ## Authors
 
