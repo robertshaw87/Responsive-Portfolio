@@ -27,6 +27,10 @@ No installation needed! Just open the page in your preferred browser.
 
 ## Built With
 
+* Html
+
+* CSS
+
 * [Basic-Portfolio](https://github.com/robertshaw87/Basic-Portfolio) - An earlier version of this Portfolio layout without responsiveness.
 
 ## Authors
